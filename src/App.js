@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn
+        BKS website
         </a>
       </header>
     </div>
