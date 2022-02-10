@@ -1,0 +1,47 @@
+.navbar-toggler {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.navbar-nav {
+  justify-content: right;
+  width: 100%;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: #fff;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link {
+    color: #fff;
+    margin-right: 0;
+  }
+
+  .navbar-brand {
+    color: #fff;
+    margin-left: 0px;
+  }
+
+
+
+  .navbaru.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+}
